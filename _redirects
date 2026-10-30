@@ -1,0 +1,6 @@
+# The prior 247laborservices.com site exposed a single root document with fragment navigation.
+# Those fragment URLs continue to resolve at /. No old deep routes were found.
+https://www.247laborservices.com/* https://247laborservices.com/:splat 301!
+/index.html / 301!
+/:a/index.html /:a/ 301!
+/:a/:b/index.html /:a/:b/ 301!
